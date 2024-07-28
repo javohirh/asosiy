@@ -14,11 +14,20 @@ header .logo {
   max-width: 90%;
 }
 .logo-con .heart {
-  max-width: 100%;
+  font-size: 40px;
+
+  color: aliceblue;
   position: absolute;
   top: -40px;
   right: 40px;
 }
+.logo-con .active-heart {
+  color: red;
+}
+.active-card-heart {
+  fill: red;
+}
+
 .nav input,
 .nav select,
 .nav button {
@@ -44,5 +53,19 @@ header .logo {
   position: absolute;
   top: 63%;
   right: 20px;
-  width: 30px;
+  font-size: 28px;
+}
+.card .active-like {
+  color: red;
+}
+.card .fa-trash {
+  position: absolute;
+  top: 65%;
+}
+.offcanvas-body {
+  background-color: #ffeda9 !important;
+}
+.offcanvas-body .card {
+  margin: auto !important;
+  margin-top: 25px !important;
 }
